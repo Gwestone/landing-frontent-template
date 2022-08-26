@@ -1,0 +1,153 @@
+.topSectionComponent{
+  width: 100%;
+  height: fit-content;
+  min-height: 117vh;
+}
+
+.yellowBackground{
+  position: absolute;
+  width: 77%;
+  min-height: 150vh;
+  background: #F4F9E2;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.blueRoundedBackground{
+  position: absolute;
+  height: 90vh;
+  width: 30%;
+  border-radius: 9999px;
+  rotate: -140deg;
+  top: -120px;
+  right: 40px;
+  overflow: clip;
+  z-index: 1;
+  background: #EDFDFF;
+}
+
+.photoRoundedBackground{
+  position: absolute;
+  height: 95vh;
+  width: 35%;
+  border-radius: 9999px;
+  rotate: -110deg;
+  top: -55px;
+  right: 10px;
+  overflow: clip;
+  mask-image: url("/mask/rounded.svg");
+}
+
+.photo{
+  rotate: 110deg;
+  width: fit-content;
+  height: 100%;
+}
+
+.contact_button {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  width: fit-content;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  background: #62D0DF;
+}
+
+.container{
+  margin-left: 12.2%;
+  margin-right: 12.2%;
+  margin-top: 15vh;
+  width: fit-content;
+  height: fit-content;
+}
+
+.mainPageTextContainer{
+  margin-top: 20vh;
+}
+
+.mainPageTitle{
+  color: #62D0DF;
+  font-size: 30px;
+  font-family: Larsseit;
+  font-weight: bold;
+}
+
+.mainPageHelp{
+  margin-top: 4vh;
+  line-height: 150%;
+  color: #22356F;
+  width: 30vw;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-family: Larsseit;
+  font-weight: bold;
+}
+
+.mainPageDesc{
+  margin-top: 7vh;
+  color: #22356F;
+  width: 34vw;
+  font-size: 32px;
+  line-height: 200%;
+  font-family: Larsseit-light;
+}
+
+.buttonsGroup{
+  margin-top: 7vh;
+}
+
+.button1{
+  font-size: 22px;
+  background: #F9B640;
+  padding: 24px 47px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: Larsseit;
+  font-stretch: 150%;
+}
+
+.button1:hover{
+  background: #FAB63E;
+  cursor: pointer;
+}
+
+.button2{
+  font-size: 22px;
+  font-family: Larsseit;
+  color: #F9B640;
+  font-weight: bold;
+  padding: 24px 47px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.button2:hover{
+  color: #FFFFFF;
+  background: #F9B640;
+  cursor: pointer;
+}
+
+.roundPhoto{
+  position: absolute;
+  right: 10vw;
+  top: 30vh;
+  width: 500px;
+  height: 500px;
+  border-radius: 9999px;
+  background: url("/images/png/linkedin-image-1.png");
+  z-index: 1;
+}
+
+.blueRound{
+  position: absolute;
+  right: 8vw;
+  top: 27vh;
+  width: 500px;
+  height: 500px;
+  border-radius: 9999px;
+  background: rgba(140, 225, 252, 0.54);
+}

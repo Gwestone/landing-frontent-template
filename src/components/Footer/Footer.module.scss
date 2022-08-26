@@ -1,0 +1,66 @@
+.footer{
+  width: 100vw;
+  position: absolute;
+  height: 61vh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.bottom{
+  font-size: 18px;
+  padding: 40px 40px 40px 10vw;
+  font-family: Larsseit;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #FFFFFF;
+  background: #62D0DF;
+}
+
+.footerImage{
+  height: calc(100% - 90px);
+  width: fit-content;
+}
+
+.footerOptions{
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 4vw;
+}
+
+.footerOpt{
+  height: fit-content;
+  margin-top: 40%;
+}
+
+.footerOptTitle{
+  text-transform: uppercase;
+  height: fit-content;
+  color: #22356F;
+  font-family: 'Larsseit';
+  font-size: 20px;
+  letter-spacing: -0.006em;
+}
+
+.footerOptText{
+  margin-top: 6vh;
+  font-family: 'Larsseit-light';
+  width: 15vw;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.006em;
+
+  color: rgba(34, 53, 111, 0.5);
+}
+
+.footerOptText > a{
+  color: #006DFF;
+  text-decoration: none;
+}
+
+.footerOptText > a:hover{
+  color: #2b51b9;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,107 @@
+.categoriesSection{
+  width: 100%;
+  height: fit-content;
+  margin-top: 30px;
+}
+
+.fourCategories{
+  width: 100%;
+  height: 52vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.threeCategories{
+  width: 100%;
+  min-height: 130vh;
+  margin-top: 16vh;
+  //background: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 10vh;
+}
+
+
+.threeCategories2{
+  margin-left: 2.5vw;
+  width: 100%;
+  min-height: 70vh;
+  margin-top: 0;
+  height: fit-content;
+  //background: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 10vh;
+}
+
+.categoriesElement{
+  padding-top: 22%;
+  padding-left: 13%;
+  padding-right: 13%;
+  min-height: fit-content;
+}
+
+.backImage{
+  background: url("/images/png/nutrition-image-1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+hr{
+  margin-bottom: 10%;
+  border: 1px solid #FFFFFF;
+}
+
+.dot{
+  margin-right: 10px;
+  display: inline-block;
+  font-family: Larsseit;
+  font-size: 42px;
+  font-weight: bold;
+  color: orange;
+}
+
+.text{
+  display: inline-block;
+  font-family: Larsseit;
+  font-stretch: expanded;
+  font-size: 42px;
+  line-height: 120%;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.categoryTitle{
+  font-family: Larsseit-light;
+  font-stretch: expanded;
+  font-size: 32px;
+  line-height: 120%;
+  color: #22356F;
+}
+
+.categoryText{
+  margin-top: 5vh;
+  font-family: Larsseit-light;
+  font-size: 20px;
+  line-height: 120%;
+  color: #22356F80;
+}
+
+.threeCategories2 > .categoriesElement{
+  width: 20vw;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.threeCategories2 > .categoriesElement > .categoryText{
+  line-height: 175%;
+  margin-bottom: auto;
+}
+
+.threeCategories2 > .categoriesElement:hover{
+  -webkit-box-shadow: inset 0px 0px 0px 2px #22356F;
+  -moz-box-shadow: inset 0px 0px 0px 2px #22356F;
+  box-shadow: inset 0px 0px 0px 2px #22356F;
+}

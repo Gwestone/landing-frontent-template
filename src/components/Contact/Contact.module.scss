@@ -1,0 +1,61 @@
+.contact{
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  background: #22356F;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.contactImage{
+  height: 100%;
+  width: fit-content;
+}
+
+.contactText{
+  font-family: Larsseit-light;
+  font-size: 47px;
+  letter-spacing: -0.005em;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 8vh;
+  width: 80%;
+}
+
+.contactTitle{
+  font-family: Larsseit;
+  font-size: 84px;
+  font-weight: bold;
+  margin-top: 35vh;
+}
+
+.contactTextContainer{
+  margin-top: 5vh;
+  margin-left: 24vh;
+}
+
+.contactUsButton{
+  font-size: 22px;
+  font-weight: unset;
+  font-family: Larsseit-light;
+  text-transform: uppercase;
+}
+
+.getHelp{
+  width: fit-content;
+  height: fit-content;
+  color: #62D0DF;
+  text-transform: uppercase;
+  font-family: Larsseit;
+  font-size: 20px;
+  margin-top: 11vh;
+  font-stretch: expanded;
+  letter-spacing: 0.12em;
+}
+
+.getHelp:hover{
+  color: #58b7c4;
+  cursor: pointer;
+  text-decoration: underline;
+}

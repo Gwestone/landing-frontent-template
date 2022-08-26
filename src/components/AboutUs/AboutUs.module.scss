@@ -1,0 +1,43 @@
+.aboutUs{
+  position: relative;
+  min-height: 64vh;
+  height: fit-content;
+  color: #22356F;
+}
+
+.aboutUsTitle{
+  height: fit-content;
+  font-family: Larsseit-light;
+  position: absolute;
+  top: 22vh;
+  left: 7vw;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.aboutUsText{
+  height: fit-content;
+  font-family: Larsseit-light;
+  font-size: 32px;
+  position: absolute;
+  left: 30%;
+  width: 40vw;
+  line-height: 150%;
+  top: 22vh;
+}
+
+@media (max-width: 1600px) {
+  .aboutUsText{
+    font-size: 26px;
+  }
+}
+
+.canHelp{
+  text-transform: uppercase;
+  position: absolute;
+  left: 43vw;
+  font-size: 22px;
+  font-family: Larsseit-light;
+  bottom: 0;
+  color: #22356F80;
+}

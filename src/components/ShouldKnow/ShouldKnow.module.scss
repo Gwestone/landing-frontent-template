@@ -1,0 +1,66 @@
+.shouldKnow{
+  width: 100%;
+  height: fit-content;
+  //background: red;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.shouldKnowImage{
+  height: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.shouldKnowTextContainer{
+  margin-top: 10vh;
+  margin-left: 7vw;
+  height: fit-content;
+  min-height: 90%;
+}
+
+.shouldKnowTitle{
+  font-family: Larsseit-light;
+  font-size: 20px;
+  color: #22356F;
+}
+
+.shouldKnowText{
+  font-stretch: expanded;
+  font-family: Larsseit;
+  margin-top: 34vh;
+  line-height: 175%;
+  font-size: 42px;
+  font-weight: bold;
+  max-width: 44vw;
+  color: #22356F;
+}
+
+.shouldKnowText > a{
+  font-stretch: expanded;
+  color: #62D0DF;
+  text-decoration: none;
+}
+
+.shouldKnowText > a:hover{
+  color: #58b7c4;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.getHelp{
+  font-size: 22px;
+  font-family: Larsseit;
+  color: #F9B640;
+  margin-top: 20%;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.getHelp:hover{
+  color: #F9B640;
+  cursor: pointer;
+  text-decoration: underline;
+}
